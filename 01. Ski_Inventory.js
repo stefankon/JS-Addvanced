@@ -91,7 +91,7 @@ function solve() {
         e.preventDefault();
         totalPriceValue = 0;
         totalPrice.textContent = `Total Price: ${totalPriceValue.toFixed(2)}`
-        debugger;
+       
         let myProdCart = [...document.getElementById("myProducts").children[1].children];
         myProdCart.map(e => { myProducts.removeChild(e) });
 
